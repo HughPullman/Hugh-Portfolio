@@ -1,0 +1,130 @@
+@media (max-width: 1000px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 20px !important; 
+        
+        .right{
+            flex: 1 !important;
+            form{
+                margin-left: 0px !important;
+                margin-top: 150px;
+            }
+        }
+    }
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 180px 100px;
+    position: relative;
+    
+    .left{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+        .title{
+            font-size: 52px;
+            padding-bottom: 100px;
+        }
+
+        .link{
+            font-size: 32px;
+            
+
+            .icon{
+                color: #66FCF1;
+                font-size: 40px;
+                margin-right: 20px;
+            }
+        }
+
+        button{
+            margin-top: 100px;
+            width: 250px;
+            height: 50px;
+            border: solid 2px #66FCF1;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        button:hover{
+            background-color: #66fcf283;
+        }
+
+    }
+
+    .right{
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+
+        form{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-left: 200px;
+            max-width: 800px;
+            align-items: center;
+            
+
+            input{
+                width: 100%;
+                height: 50px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: #353538;
+                color: white;
+                padding-left: 10px;
+                border: none;
+            }
+            textarea{
+                width: 100%;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: #353538;
+                color: white;
+                padding: 10px;
+                border: none;
+            }
+            button{
+            width: 200px;
+            height: 50px;
+            border: solid 2px #66FCF1;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            }
+
+            button:hover{
+                background-color: #66fcf283;
+            }
+        }
+    }
+
+    .copyright{
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+}
